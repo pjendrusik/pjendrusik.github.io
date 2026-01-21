@@ -74,6 +74,17 @@ p {
   margin-bottom: 2.5rem;
 }
 
+.stack {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 1.25rem 0;
+}
+
 .cta-row {
   display: flex;
   flex-wrap: wrap;

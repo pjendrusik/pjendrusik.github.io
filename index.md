@@ -6,7 +6,7 @@ title: Pawel Jendrusik
 
 <div class="page">
   <section class="hero">
-    <div>
+    <div class="card hero-card">
       <div class="eyebrow">Senior Backend Engineer</div>
       <h1>Pawel Jendrusik</h1>
       <p class="lead">
@@ -19,9 +19,7 @@ title: Pawel Jendrusik
         <a class="button" href="/assets/cv.pdf">Download CV</a>
         <a class="button ghost" href="mailto:pawel@jendrusik.pl">Email</a>
       </div>
-    </div>
-    <div class="card hero-card">
-      <h2>Contact</h2>
+      <div class="divider"></div>
       <ul class="meta-list">
         <li><span>Email</span><a href="mailto:pawel@jendrusik.pl">pawel@jendrusik.pl</a></li>
         <li><span>Mobile</span><a href="tel:+48669744482">+48 669 744 482</a></li>
@@ -29,27 +27,26 @@ title: Pawel Jendrusik
         <li><span>GitHub</span><a href="https://github.com/pjendrusik">github.com/pjendrusik</a></li>
       </ul>
     </div>
-  </section>
-
-  <section class="grid two">
-    <div class="card">
-      <h2>Profile</h2>
-      <p>
-        Proven track record in backend API design, transactional workflows, and
-        integrations with external payment service providers. Comfortable delivering
-        secure, scalable infrastructure in cross-functional product teams.
-      </p>
-    </div>
-    <div class="card">
-      <h2>Core Expertise</h2>
-      <ul>
-        <li>Payment APIs: payments, payouts, refunds, FX, withdrawals</li>
-        <li>PSP and card issuer integrations</li>
-        <li>Transaction lifecycle modeling and state machines</li>
-        <li>Idempotency, retries, and failure handling</li>
-        <li>Event-driven backend systems (Kafka, RabbitMQ)</li>
-        <li>Relational data modeling (PostgreSQL)</li>
-      </ul>
+    <div class="stack">
+      <section class="card">
+        <h2>Profile</h2>
+        <p>
+          Proven track record in backend API design, transactional workflows, and
+          integrations with external payment service providers. Comfortable delivering
+          secure, scalable infrastructure in cross-functional product teams.
+        </p>
+      </section>
+      <section class="card">
+        <h2>Core Expertise</h2>
+        <ul>
+          <li>Payment APIs: payments, payouts, refunds, FX, withdrawals</li>
+          <li>PSP and card issuer integrations</li>
+          <li>Transaction lifecycle modeling and state machines</li>
+          <li>Idempotency, retries, and failure handling</li>
+          <li>Event-driven backend systems (Kafka, RabbitMQ)</li>
+          <li>Relational data modeling (PostgreSQL)</li>
+        </ul>
+      </section>
     </div>
   </section>
 
