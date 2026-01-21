@@ -5,7 +5,7 @@ title: Pawel Jendrusik
 <link rel="stylesheet" href="/assets/site.css">
 
 <div class="page">
-  <header class="hero">
+  <section class="hero">
     <div>
       <div class="eyebrow">Senior Backend Engineer</div>
       <h1>Pawel Jendrusik</h1>
@@ -29,7 +29,7 @@ title: Pawel Jendrusik
         <li><span>GitHub</span><a href="https://github.com/pjendrusik">github.com/pjendrusik</a></li>
       </ul>
     </div>
-  </header>
+  </section>
 
   <section class="grid two">
     <div class="card">
