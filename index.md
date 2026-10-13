@@ -1,158 +1,186 @@
 ---
 layout: default
-title: Pawel Jendrusik
+title: Pawel Jendrusik - Backend Engineer & Systems Architect
+description: Backend engineering for payments, crypto, and data platforms. Scala, TypeScript, event-driven systems, and hands-on architecture.
 ---
-<link rel="stylesheet" href="/assets/site.css">
+<div class="header-shell" id="top">
+  <header class="site-header container">
+    <a class="wordmark" href="#top" aria-label="Pawel Jendrusik, back to top">
+      <span class="monogram" aria-hidden="true">pj<span>.</span></span>
+      <span>Paweł Jendrusik</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#expertise">What I do</a>
+      <a href="#work">Selected work</a>
+      <a href="#experience">Experience</a>
+      <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-<div class="page">
-  <section class="hero">
-    <div class="card hero-card">
-      <div class="eyebrow">Senior Backend Engineer</div>
-      <h1>Pawel Jendrusik</h1>
-      <p class="lead">
-        Senior backend engineer with 13+ years of experience designing payment
-        platforms and regulated financial systems across FinTech, banking, and crypto.
-        Strong JVM background in Scala with deep expertise in event-driven systems and
-        PostgreSQL-backed transaction flows.
-      </p>
-      <div class="cta-row">
-        <a class="button" href="/assets/cv.pdf">Download CV</a>
-        <a class="button ghost" href="mailto:pawel@jendrusik.pl">Email</a>
+</div>
+
+<main id="main-content" tabindex="-1">
+  <div class="hero-shell">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow"><span class="status-dot" aria-hidden="true"></span>Senior backend engineer / systems architect</p>
+        <h1 id="hero-title">I build the systems money moves <span>through.</span></h1>
+        <p class="hero-description">Payments, platforms, and the data behind them. I turn complex financial workflows into software that's reliable, understandable, and built to run.</p>
+        <div class="hero-actions">
+          <a class="button button-accent" href="mailto:pawel@jendrusik.pl">Let's talk <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="{{ '/assets/cv.pdf' | relative_url }}" download="Pawel-Jendrusik-CV.pdf">Download my CV <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-footnote">Fintech <span>·</span> Crypto <span>·</span> Data <span>·</span> Architecture</p>
       </div>
-      <div class="divider"></div>
-      <ul class="meta-list">
-        <li><span>Email</span><a href="mailto:pawel@jendrusik.pl">pawel@jendrusik.pl</a></li>
-        <li><span>Mobile</span><a href="tel:+48669744482">+48 669 744 482</a></li>
-        <li><span>LinkedIn</span><a href="https://linkedin.com/in/pjendrusik">linkedin.com/in/pjendrusik</a></li>
-        <li><span>GitHub</span><a href="https://github.com/pjendrusik">github.com/pjendrusik</a></li>
-      </ul>
-    </div>
-    <div class="stack">
-      <section class="card">
-        <h2>Profile</h2>
-        <p>
-          Proven track record in backend API design, transactional workflows, and
-          integrations with external payment service providers. Comfortable delivering
-          secure, scalable infrastructure in cross-functional product teams.
-        </p>
-      </section>
-      <section class="card">
-        <h2>Core Expertise</h2>
-        <ul>
-          <li>Payment APIs: payments, payouts, refunds, FX, withdrawals</li>
-          <li>PSP and card issuer integrations</li>
-          <li>Transaction lifecycle modeling and state machines</li>
-          <li>Idempotency, retries, and failure handling</li>
-          <li>Event-driven backend systems (Kafka, RabbitMQ)</li>
-          <li>Relational data modeling (PostgreSQL)</li>
-        </ul>
-      </section>
+
+      <figure class="system-map" aria-label="An illustration of my focus: payment APIs connected to domain events, transactional storage, and analytics.">
+        <div class="map-heading"><span class="eyebrow">Behind the product</span><span class="map-symbol" aria-hidden="true">[ + ]</span></div>
+        <div class="map-canvas" aria-hidden="true">
+          <svg class="map-routes" viewBox="0 0 440 340" fill="none">
+            <path class="route" d="M220 82V144 M220 204V234H100V270 M220 234H340V270" />
+            <path class="route route-secondary" d="M100 304H46V56H154 M340 304H394V56H286" />
+            <circle class="route-point" cx="220" cy="234" r="4" />
+            <circle class="route-point" cx="220" cy="115" r="3" />
+          </svg>
+          <div class="flow-node node-api"><span class="node-icon">↗</span><div><span class="node-label">Money movement</span><strong>Payments & APIs</strong></div></div>
+          <div class="flow-node node-events"><span class="node-icon">⌘</span><div><span class="node-label">Event-driven systems</span><strong>Domain events</strong></div><span class="node-indicator"></span></div>
+          <div class="flow-node node-storage"><span class="node-label">Transactional</span><strong>PostgreSQL</strong></div>
+          <div class="flow-node node-analytics"><span class="node-label">Analytical</span><strong>ClickHouse</strong></div>
+          <span class="map-note note-left">consistency</span>
+          <span class="map-note note-right">observability</span>
+        </div>
+        <figcaption><span class="map-caption-dot" aria-hidden="true"></span>Correctness. Traceability. A clear path through.</figcaption>
+      </figure>
+    </section>
+  </div>
+
+<div class="facts-strip container" aria-label="Profile at a glance">
+  <div><strong>13<span>+</span></strong><span class="eyebrow">Years of engineering</span></div>
+  <div><strong>Finance & crypto</strong><span class="eyebrow">Deep domain experience</span></div>
+  <div><strong>Code to architecture</strong><span class="eyebrow">Hands-on technical leadership</span></div>
+  <div><strong>Product first</strong><span class="eyebrow">Engineering with purpose</span></div>
+</div>
+
+<div class="content-sections">
+  <section class="section container profile-section" id="profile" aria-labelledby="profile-title">
+    <div class="section-label"><span>01 /</span> Profile</div>
+    <div class="profile-grid">
+      <h2 id="profile-title">Good engineering sees the <span class="muted-heading">whole picture.</span></h2>
+      <div class="section-copy">
+        <p class="intro-copy">I'm a backend engineer who connects technical decisions with the product and the business behind them.</p>
+        <p>My work spans regulated banking, crypto payments, and e-commerce: moving money, connecting partners, and making financial data useful. I work across Scala, TypeScript, and PHP, with a focus on distributed systems and the workflows they support.</p>
+        <p>From modeling a transaction lifecycle to making reporting trustworthy, I stay close to the implementation and work with product, compliance, and infrastructure teams to get the details right.</p>
+      </div>
     </div>
   </section>
 
-  <section class="grid two">
-    <div class="card">
-      <h2>Payments & Backend Focus</h2>
-      <ul>
-        <li>Ownership of backend APIs for payment and payout flows</li>
-        <li>Asynchronous payment orchestration using Kafka</li>
-        <li>PostgreSQL transactional models with auditability guarantees</li>
-        <li>Operational safety and correctness in regulated environments</li>
-        <li>Close collaboration with product, compliance, and infrastructure teams</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h2>Selected Work</h2>
-      <ul>
-        <li>Designed KYC/KYB onboarding flows for compliant account opening.</li>
-        <li>Delivered transaction monitoring systems for regulated crypto flows.</li>
-        <li>Built centralized market-data and exchange-rate services.</li>
-        <li>Implemented Travel Rule data exchange and compliance reporting pipelines.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="card">
-    <h2>Technical Skills</h2>
-    <div class="tag-list">
-      <span>Scala</span>
-      <span>JavaScript</span>
-      <span>TypeScript</span>
-      <span>PHP</span>
-      <span>ZIO</span>
-      <span>Cats</span>
-      <span>Akka</span>
-      <span>Akka-HTTP</span>
-      <span>sttp</span>
-      <span>Tapir</span>
-      <span>PostgreSQL</span>
-      <span>Kafka</span>
-      <span>RabbitMQ</span>
-      <span>Docker</span>
-      <span>Kubernetes (GCP)</span>
-      <span>CI/CD</span>
-      <span>Linux</span>
-    </div>
-  </section>
-
-  <section class="card">
-    <h2>Professional Experience</h2>
-    <div class="experience">
-      <article>
-        <h3>ICEO LAB LTD – Linity, BeOne</h3>
-        <p class="role">Senior Software Engineer · 02.2023 – Present · London, United Kingdom</p>
-        <ul>
-          <li>Core backend contributor for payments, withdrawals, FX conversion, and balance management.</li>
-          <li>Designed KYC/KYB onboarding flows for compliant account opening and execution.</li>
-          <li>Built Kafka-driven services for payment state changes, balance updates, and KYC lifecycle events.</li>
-          <li>Modeled PostgreSQL schemas with idempotency, retries, and auditability.</li>
-          <li>Operated market-data and exchange-rate services used by payment and FX flows.</li>
-        </ul>
+  <section class="section container expertise-section" id="expertise" aria-labelledby="expertise-title">
+    <div class="section-label"><span>02 /</span> What I do</div>
+    <div class="section-heading"><h2 id="expertise-title">Complex domains.<br>Practical solutions.</h2><p>Three areas where I bring experience, context, and hands-on delivery.</p></div>
+    <div class="expertise-grid">
+      <article class="expertise-item">
+        <span class="item-number" aria-hidden="true">01</span>
+        <h3>Money movement.</h3>
+        <p>Payment APIs, payouts, FX, wallets, and partner integrations. Explicit transaction states, safe retries, and audit trails that hold up in regulated environments.</p>
+        <ul class="tag-list" aria-label="Payment expertise"><li>Payments & FX</li><li>KYC / KYB</li><li>PSP integrations</li></ul>
       </article>
-      <article>
-        <h3>BITCLEAR AG</h3>
-        <p class="role">Senior Staff Software Engineer & Manager · 04.2019 – 01.2023 · Ruggell, Liechtenstein</p>
-        <ul>
-          <li>Led development of a crypto-enabled payment processing platform under strict regulation.</li>
-          <li>Built wallet infrastructure, payment services, and transaction monitoring systems.</li>
-          <li>Delivered KYC/KYB and risk-profiling platforms with approval workflows.</li>
-          <li>Integrated AML and blockchain analytics providers and implemented Travel Rule pipelines.</li>
-        </ul>
+      <article class="expertise-item">
+        <span class="item-number" aria-hidden="true">02</span>
+        <h3>Data you can trust.</h3>
+        <p>CDC pipelines, analytical read models, and reporting that connect transactional systems to useful business metrics. Visibility for the people making decisions.</p>
+        <ul class="tag-list" aria-label="Data expertise"><li>Kafka & Debezium</li><li>ClickHouse</li><li>Observability</li></ul>
       </article>
-      <article>
-        <h3>BITMONEY.EU – Crypto Limited</h3>
-        <p class="role">Lead Software Engineer · 05.2016 – 04.2019 · Malta</p>
-        <ul>
-          <li>Built an FX-enabled platform for buying and selling Bitcoin with credit cards.</li>
-          <li>Integrated multiple PSPs and optimized routing to reduce processing costs.</li>
-          <li>Designed transaction flows, order matching, and settlement processes.</li>
-          <li>Owned Android and iOS app delivery with an external vendor.</li>
-        </ul>
+      <article class="expertise-item">
+        <span class="item-number" aria-hidden="true">03</span>
+        <h3>Architecture that works.</h3>
+        <p>Domain models, asynchronous workflows, and backend services built around real product needs. Technical direction, mentoring, and ownership through production.</p>
+        <ul class="tag-list" aria-label="Architecture expertise"><li>Distributed systems</li><li>API design</li><li>Technical leadership</li></ul>
       </article>
     </div>
   </section>
 
-  <section class="grid two">
-    <div class="card">
-      <h2>Previous Experience</h2>
-      <ul class="tight">
-        <li>VALUELOGIC / SCOUT24 — Backend development (PHP / Symfony)</li>
-        <li>LIMANGO.PL — Lead developer for e-commerce platform</li>
-        <li>ALLEGRO GROUP – CENEO.PL — Backend development for price comparison</li>
-        <li>PLAYARENA.PL — Sports event management platform</li>
-      </ul>
+  <section class="work-section" id="work" aria-labelledby="work-title">
+    <div class="section container">
+      <div class="section-label"><span>03 /</span> Selected work</div>
+      <div class="section-heading"><h2 id="work-title">What that looks like<br>in practice.</h2><p>Real systems, built with real product and operational constraints.</p></div>
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-card-top"><span class="eyebrow">CoinPayments</span><span class="work-category">Data & integrations</span></div>
+          <div class="pipeline" aria-label="Data pipeline: MySQL to Debezium and Kafka to analytical read models"><span>MySQL</span><span class="pipeline-arrow" aria-hidden="true">→</span><span>Debezium<br><b>Kafka</b></span><span class="pipeline-arrow" aria-hidden="true">→</span><span>Read models</span></div>
+          <h3>From transactions<br>to useful data.</h3>
+          <p>Built CDC pipelines into ClickHouse and MongoDB, current-state views for reporting, and Grafana dashboards for pipeline health and data freshness. Checked consistency across source systems, read models, and APIs.</p>
+          <ul class="tag-list" aria-label="Data platform technologies"><li>ClickHouse</li><li>MongoDB</li><li>Grafana</li></ul>
+        </article>
+        <article class="work-card">
+          <div class="work-card-top"><span class="eyebrow">ICEO / BeOne</span><span class="work-category">Banking & payments</span></div>
+          <div class="pipeline" aria-label="Banking workflow: onboarding to accounts to payments"><span>Onboarding</span><span class="pipeline-arrow" aria-hidden="true">→</span><span>Accounts<br><b>& balances</b></span><span class="pipeline-arrow" aria-hidden="true">→</span><span>Payments</span></div>
+          <h3>Financial workflows,<br>modeled properly.</h3>
+          <p>Delivered payment and account services, KYC/KYB onboarding, and a shared market-data and exchange-rate service. Used Kafka and PostgreSQL to support consistent, traceable transaction lifecycles.</p>
+          <ul class="tag-list" aria-label="Banking platform technologies"><li>Scala</li><li>Kafka</li><li>PostgreSQL</li></ul>
+        </article>
+      </div>
     </div>
-    <div class="card">
-      <h2>Education</h2>
-      <ul class="tight">
-        <li>MSc. Computer Science, Wroclaw University of Science & Technology (2014)</li>
-        <li>BSc. Computer Science, Wyzsza Szkola Informatyki i Zarzadzania "Copernicus" (2012)</li>
-      </ul>
-      <h2>Languages</h2>
-      <ul class="tight">
-        <li>Polish (native)</li>
-        <li>English (professional)</li>
-      </ul>
+  </section>
+
+  <section class="experience-section" id="experience" aria-labelledby="experience-title">
+    <div class="section container">
+      <div class="section-label"><span>04 /</span> Experience</div>
+      <div class="section-heading"><h2 id="experience-title">Built over time.<br><span>Grounded in delivery.</span></h2><p>From product platforms to regulated financial infrastructure. Always close to the code.</p></div>
+      <div class="experience-list">
+        <article class="experience-row">
+          <div class="experience-date">Mar 2026 - Present<span class="current-label">Current</span></div>
+          <div class="experience-company"><h3>CoinPayments</h3><p>Data Integration / Backend Engineering</p></div>
+          <p class="experience-description">CDC pipelines, financial reporting, operational read models, and client integrations for a crypto payment platform.</p>
+        </article>
+        <article class="experience-row">
+          <div class="experience-date">Feb 2023 - Feb 2026</div>
+          <div class="experience-company"><h3>ICEO · Linity, BeOne</h3><p>Senior Software Engineer</p></div>
+          <p class="experience-description">Banking and payment services, compliant onboarding, event-driven workflows, and market-data infrastructure.</p>
+        </article>
+        <article class="experience-row">
+          <div class="experience-date">Apr 2019 - Jan 2023</div>
+          <div class="experience-company"><h3>Bitclear</h3><p>Senior Staff Software Engineer & Manager</p></div>
+          <p class="experience-description">Architectural leadership and hands-on delivery across crypto payments, custody, AML, and Travel Rule integrations. Managed and mentored engineers.</p>
+        </article>
+        <article class="experience-row">
+          <div class="experience-date">May 2016 - Apr 2019</div>
+          <div class="experience-company"><h3>Bitmoney.eu</h3><p>Lead Software Engineer</p></div>
+          <p class="experience-description">Bitcoin buying and selling, PSP routing, exchange integrations, settlement workflows, and mobile application ownership.</p>
+        </article>
+      </div>
+      <details class="earlier-experience">
+        <summary>Earlier: e-commerce & product platforms <span aria-hidden="true">+</span></summary>
+        <div class="earlier-grid">
+          <div><h3>Valuelogic / Scout24</h3><p>Software Engineer · Jul 2016 - Dec 2017</p><p>PHP / Symfony development for umzug-easy.de.</p></div>
+          <div><h3>Limango.pl</h3><p>Lead Developer · May 2013 - Jul 2016</p><p>E-commerce services, data pipelines, KPI dashboards, and product database replication.</p></div>
+          <div><h3>Allegro Group / Ceneo.pl</h3><p>Software Engineer · Nov 2012 - May 2013</p><p>Backend development and product description clustering.</p></div>
+          <div><h3>Playarena.pl</h3><p>Software Engineer · Apr 2009 - Apr 2016</p><p>Sports event platform development and application lifecycle ownership.</p></div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section class="section container toolkit-section" id="toolkit" aria-labelledby="toolkit-title">
+    <div class="section-label"><span>05 /</span> The toolkit</div>
+    <div class="toolkit-grid">
+      <div><h2 id="toolkit-title">A broad toolkit.<br><span class="muted-heading">A clear focus.</span></h2><p class="toolkit-intro">Scala is my primary language. I also work across Node.js, TypeScript, and PHP, choosing tools that fit the system and the team.</p><a class="inline-link" href="https://github.com/pjendrusik">Find me on GitHub <span aria-hidden="true">↗</span></a></div>
+      <dl class="toolkit-list">
+        <div><dt>Languages</dt><dd>Scala · TypeScript · JavaScript · PHP</dd></div>
+        <div><dt>Backend</dt><dd>ZIO · Cats · Akka · Tapir · sttp<br>NestJS · Express · Symfony · Laravel</dd></div>
+        <div><dt>Data & messaging</dt><dd>PostgreSQL · MySQL · Kafka · RabbitMQ<br>Debezium · ClickHouse · MongoDB</dd></div>
+        <div><dt>Infrastructure</dt><dd>Docker · Kubernetes · GCP<br>CI/CD · Grafana · Linux</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact" aria-labelledby="contact-title">
+    <div class="container contact-grid">
+      <div><div class="section-label"><span>06 /</span> Let's talk</div><h2 id="contact-title">Have a complex<br>problem to build for?</h2><p>Payments, data, integrations, or a backend that needs a clear direction. Tell me what you're working on.</p><a class="contact-email" href="mailto:pawel@jendrusik.pl">pawel@jendrusik.pl <span aria-hidden="true">↗</span></a></div>
+      <div class="contact-actions"><a class="button button-dark" href="mailto:pawel@jendrusik.pl">Start a conversation <span aria-hidden="true">↗</span></a><a class="button button-outline" href="{{ '/assets/cv.pdf' | relative_url }}" download="Pawel-Jendrusik-CV.pdf">Download CV <span aria-hidden="true">↓</span></a><div class="social-links"><a href="https://www.linkedin.com/in/pjendrusik">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/pjendrusik">GitHub <span aria-hidden="true">↗</span></a></div></div>
     </div>
   </section>
 </div>
+
+</main>
+
+<footer class="site-footer container"><p>© {{ site.time | date: '%Y' }} Paweł Jendrusik</p><p>Backend engineering. Product thinking.</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>

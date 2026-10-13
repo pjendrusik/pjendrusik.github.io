@@ -1,2 +1,17 @@
 title: Pawel Jendrusik
-description: Senior backend engineer designing payment platforms and regulated financial systems.
+description: Backend engineering for payments, crypto, and data platforms. Scala, TypeScript, event-driven systems, and hands-on architecture.
+url: https://pawel.jendrusik.com
+baseurl: ""
+lang: en
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - specs
+  - scripts
+  - .bundle
+  - .agents
+  - .codex
+  - .specify
