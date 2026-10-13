@@ -105,14 +105,14 @@ description: Backend engineering for payments, crypto, and data platforms. Scala
       <div class="section-heading"><h2 id="work-title">What that looks like<br>in practice.</h2><p>Real systems, built with real product and operational constraints.</p></div>
       <div class="work-grid">
         <article class="work-card">
-          <div class="work-card-top"><span class="eyebrow">CoinPayments</span><span class="work-category">Data & integrations</span></div>
+          <div class="work-card-top"><span class="eyebrow">Digital-asset payments</span><span class="work-category">Data & integrations</span></div>
           <div class="pipeline" aria-label="Data pipeline: MySQL to Debezium and Kafka to analytical read models"><span>MySQL</span><span class="pipeline-arrow" aria-hidden="true">→</span><span>Debezium<br><b>Kafka</b></span><span class="pipeline-arrow" aria-hidden="true">→</span><span>Read models</span></div>
           <h3>From transactions<br>to useful data.</h3>
           <p>Built CDC pipelines into ClickHouse and MongoDB, current-state views for reporting, and Grafana dashboards for pipeline health and data freshness. Checked consistency across source systems, read models, and APIs.</p>
           <ul class="tag-list" aria-label="Data platform technologies"><li>ClickHouse</li><li>MongoDB</li><li>Grafana</li></ul>
         </article>
         <article class="work-card">
-          <div class="work-card-top"><span class="eyebrow">ICEO / BeOne</span><span class="work-category">Banking & payments</span></div>
+          <div class="work-card-top"><span class="eyebrow">Regulated finance</span><span class="work-category">Banking & payments</span></div>
           <div class="pipeline" aria-label="Banking workflow: onboarding to accounts to payments"><span>Onboarding</span><span class="pipeline-arrow" aria-hidden="true">→</span><span>Accounts<br><b>& balances</b></span><span class="pipeline-arrow" aria-hidden="true">→</span><span>Payments</span></div>
           <h3>Financial workflows,<br>modeled properly.</h3>
           <p>Delivered payment and account services, KYC/KYB onboarding, and a shared market-data and exchange-rate service. Used Kafka and PostgreSQL to support consistent, traceable transaction lifecycles.</p>
@@ -128,35 +128,27 @@ description: Backend engineering for payments, crypto, and data platforms. Scala
       <div class="section-heading"><h2 id="experience-title">Built over time.<br><span>Grounded in delivery.</span></h2><p>From product platforms to regulated financial infrastructure. Always close to the code.</p></div>
       <div class="experience-list">
         <article class="experience-row">
-          <div class="experience-date">Mar 2026 - Present<span class="current-label">Current</span></div>
-          <div class="experience-company"><h3>CoinPayments</h3><p>Data Integration / Backend Engineering</p></div>
+          <div class="experience-domain">Data & reporting</div>
+          <div class="experience-role"><h3>Backend engineering</h3><p>Crypto payment platforms</p></div>
           <p class="experience-description">CDC pipelines, financial reporting, operational read models, and client integrations for a crypto payment platform.</p>
         </article>
         <article class="experience-row">
-          <div class="experience-date">Feb 2023 - Feb 2026</div>
-          <div class="experience-company"><h3>ICEO · Linity, BeOne</h3><p>Senior Software Engineer</p></div>
+          <div class="experience-domain">Banking & payments</div>
+          <div class="experience-role"><h3>Senior software engineering</h3><p>Regulated financial products</p></div>
           <p class="experience-description">Banking and payment services, compliant onboarding, event-driven workflows, and market-data infrastructure.</p>
         </article>
         <article class="experience-row">
-          <div class="experience-date">Apr 2019 - Jan 2023</div>
-          <div class="experience-company"><h3>Bitclear</h3><p>Senior Staff Software Engineer & Manager</p></div>
-          <p class="experience-description">Architectural leadership and hands-on delivery across crypto payments, custody, AML, and Travel Rule integrations. Managed and mentored engineers.</p>
+          <div class="experience-domain">Digital assets</div>
+          <div class="experience-role"><h3>Staff & lead engineering</h3><p>Payments, custody & compliance</p></div>
+          <p class="experience-description">Architectural leadership and hands-on delivery across crypto payments, wallets, PSP and exchange integrations, AML, and Travel Rule. Managed and mentored engineers.</p>
         </article>
         <article class="experience-row">
-          <div class="experience-date">May 2016 - Apr 2019</div>
-          <div class="experience-company"><h3>Bitmoney.eu</h3><p>Lead Software Engineer</p></div>
-          <p class="experience-description">Bitcoin buying and selling, PSP routing, exchange integrations, settlement workflows, and mobile application ownership.</p>
+          <div class="experience-domain">Product platforms</div>
+          <div class="experience-role"><h3>Backend development</h3><p>E-commerce, marketplaces & services</p></div>
+          <p class="experience-description">Product services, data pipelines, KPI dashboards, and application lifecycle ownership across commerce, comparison, and sports platforms.</p>
         </article>
       </div>
-      <details class="earlier-experience">
-        <summary>Earlier: e-commerce & product platforms <span aria-hidden="true">+</span></summary>
-        <div class="earlier-grid">
-          <div><h3>Valuelogic / Scout24</h3><p>Software Engineer · Jul 2016 - Dec 2017</p><p>PHP / Symfony development for umzug-easy.de.</p></div>
-          <div><h3>Limango.pl</h3><p>Lead Developer · May 2013 - Jul 2016</p><p>E-commerce services, data pipelines, KPI dashboards, and product database replication.</p></div>
-          <div><h3>Allegro Group / Ceneo.pl</h3><p>Software Engineer · Nov 2012 - May 2013</p><p>Backend development and product description clustering.</p></div>
-          <div><h3>Playarena.pl</h3><p>Software Engineer · Apr 2009 - Apr 2016</p><p>Sports event platform development and application lifecycle ownership.</p></div>
-        </div>
-      </details>
+      <a class="experience-cv text-link" href="{{ '/assets/cv.pdf' | relative_url }}" download="Pawel-Jendrusik-CV.pdf">Full career history in my CV <span aria-hidden="true">↓</span></a>
     </div>
   </section>
 

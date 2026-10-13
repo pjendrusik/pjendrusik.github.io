@@ -41,7 +41,7 @@ The generated site is in `_site/`, which is ignored by Git.
 
 ## Update content and design
 
-- `index.md`: profile, work examples, career timeline, skills, and contact links.
+- `index.md`: profile, work examples, experience overview, skills, and contact links.
 - `assets/site.css`: colors, typography, diagrams, layout, and responsive styles.
 - `_layouts/default.html`: document structure, metadata, and stylesheet loading.
 - `_config.yml`: site title, description, public URL, and build exclusions.
@@ -52,6 +52,8 @@ The October 2026 refresh uses the general CV and the newer profile details in
 `/Users/pjendrusik/git/cv/printify/pawel_jendrusik.md`. The download is the general
 CV from `general/pawel_jendrusik.pdf`, rather than a role-specific application.
 Private interview and career-strategy notes are not published.
+Company names and detailed employment dates remain in the downloadable CV;
+the landing page describes domains, roles, and contributions.
 
 Font files and their SIL Open Font Licenses live in `assets/fonts/`. The CSS
 URL includes a build timestamp so a new deployment refreshes cached styles.

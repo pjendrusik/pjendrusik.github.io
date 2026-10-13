@@ -82,8 +82,7 @@ a {
   text-underline-offset: 0.3em;
 }
 
-a:focus-visible,
-summary:focus-visible {
+a:focus-visible {
   outline: 3px solid currentColor;
   outline-offset: 6px;
 }
@@ -140,7 +139,7 @@ h3 {
 .eyebrow,
 .section-label,
 .item-number,
-.experience-date,
+.experience-domain,
 .toolkit-list dt {
   font-family: var(--font-mono);
   font-size: 0.7rem;
@@ -740,8 +739,8 @@ h3 {
 
 .experience-section .section-label,
 .experience-section .section-heading > p,
-.experience-date,
-.experience-company p,
+.experience-domain,
+.experience-role p,
 .experience-description {
   color: var(--muted-dark);
 }
@@ -759,30 +758,17 @@ h3 {
   border-top: 1px solid var(--line-dark);
 }
 
-.experience-date {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.7rem;
+.experience-domain {
   padding-top: 0.2rem;
   font-size: 0.6rem;
   letter-spacing: 0;
 }
 
-.current-label {
-  padding: 0.15rem 0.6rem;
-  border: 1px solid #ae805d;
-  border-radius: 2px;
-  color: var(--accent);
-  font-size: 0.55rem;
-  letter-spacing: 0.05em;
-}
-
-.experience-company h3 {
+.experience-role h3 {
   font-size: 1.6rem;
 }
 
-.experience-company p {
+.experience-role p {
   margin-top: 0.65rem;
   font-size: 0.76rem;
   line-height: 1.6;
@@ -792,55 +778,14 @@ h3 {
   font-size: 0.84rem;
 }
 
-.earlier-experience {
-  border-block: 1px solid var(--line-dark);
-}
-
-.earlier-experience summary {
+.experience-cv {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding-block: 1.2rem;
-  color: var(--muted-dark);
-  font-size: 0.85rem;
-  list-style: none;
-  cursor: pointer;
-}
-
-.earlier-experience summary::-webkit-details-marker {
-  display: none;
-}
-
-.earlier-experience summary > span {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line-dark);
   color: var(--accent);
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.earlier-experience[open] summary > span {
-  transform: rotate(45deg);
-}
-
-.earlier-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2rem 4rem;
-  padding-block: 1rem 2rem;
-}
-
-.earlier-grid h3 {
-  margin-bottom: 0.7rem;
-  font-size: 1.25rem;
-}
-
-.earlier-grid p {
-  color: var(--muted-dark);
-  font-size: 0.8rem;
-}
-
-.earlier-grid p + p {
-  margin-top: 0.5rem;
 }
 
 .toolkit-intro {
@@ -1034,7 +979,7 @@ h3 {
   .work-grid { grid-template-columns: 1fr; }
   .experience-row { grid-template-columns: 150px minmax(0, 1fr); gap: 1rem 1.8rem; }
   .experience-description { grid-column: 2; }
-  .experience-date { grid-row: span 2; }
+  .experience-domain { grid-row: span 2; }
   .toolkit-list > div { grid-template-columns: 150px minmax(0, 1fr); }
   .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
   .contact-actions { max-width: 330px; }
@@ -1071,11 +1016,9 @@ h3 {
   .pipeline > span:not(.pipeline-arrow) { padding: 0.3rem; font-size: 0.52rem; }
   .work-card h3 { font-size: 1.9rem; }
   .experience-row { grid-template-columns: 1fr; gap: 0.9rem; padding-block: 1.7rem; }
-  .experience-date { flex-direction: row; align-items: center; gap: 0.8rem; grid-row: auto; }
+  .experience-domain { grid-row: auto; }
   .experience-description { grid-column: auto; }
-  .experience-company h3 { font-size: 1.6rem; }
-  .earlier-grid { grid-template-columns: 1fr; gap: 1.6rem; }
-  .earlier-experience summary { font-size: 0.75rem; }
+  .experience-role h3 { font-size: 1.6rem; }
   .toolkit-list > div { grid-template-columns: 1fr; gap: 0.4rem; }
   .contact-section { padding-block: 3.5rem; }
   .contact-section h2 { font-size: 2.6rem; }
